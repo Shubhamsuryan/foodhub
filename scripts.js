@@ -42,7 +42,7 @@ tm.from(".nav a",{
 
 var loader= document.getElementById("preloader");
 window.addEventListener("load",function() {
-    this.setTimeout(hello, 3000);
+    this.setTimeout(hello, 1);
     function hello() {
         loader.style.display="none";
     }
